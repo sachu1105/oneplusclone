@@ -32,7 +32,7 @@ body {
     justify-content: flex-start;
 }
 .navbar-left img {
-    width: 90px; 
+    width: 87px; 
     height: auto; 
     margin-left: 20px; 
     cursor: pointer;
@@ -41,34 +41,44 @@ body {
 /*center */
 .navbar-center {
     flex: 2;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
     padding: 0;
-    margin:0;
-}
-
-.navbar-center li {
-    display: inline;
+    margin: 0;
+  }
+  
+  .navbar-center li a {
+    display: flex;
     margin: 0 20px;
-}
-
-.navbar-center a {
     text-decoration: none;
     color: #000;
-    font-weight:500;
-    font-size:smaller;
-}
+    font-weight: 500;
+    font-size: smaller;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .navbar-center li a:hover {
+    opacity: 0.6; 
+  }
 
 /*right side*/
 .navbar-right {
     flex: 1;
     justify-content:flex-end;
-    margin-right: 50px;
-    
+    margin-right: 50px;   
 }
-.navbar-right a {
-    margin-left: 20px;
+
+.navbar-right a img {
+    margin-left: 30px;
     cursor: pointer; 
 }
 
-
+.navbar-right img {
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    
+  }
+  
+/*-----------------------------------*/
