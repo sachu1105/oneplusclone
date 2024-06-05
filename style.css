@@ -17,6 +17,7 @@ body {
     height: 50px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     
+    
 }
 
 .navbar-left,
@@ -55,11 +56,12 @@ body {
     color: #000;
     font-weight: 500;
     font-size: smaller;
-    transition: opacity 0.3s ease-in-out;
+    transition:  color 0.3s ease-in-out;
   }
   
   .navbar-center li a:hover {
-    opacity: 0.6; 
+    
+    color: red;
   }
 
 /*right side*/
