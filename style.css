@@ -84,3 +84,90 @@ body {
   }
   
 /*-----------------------------------*/
+/*========================
+ Hero Section 
+ =========================*/
+ .hero-section {
+    width: 100%;
+    height: 88vh;
+    background-color: rgb(224, 227, 232);
+    display: flex;
+    align-items: center; /*vertical */
+    justify-content: center; /* horizontal */
+}
+
+.hero-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-left,
+.hero-right {
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 50px ; 
+    box-sizing: border-box; 
+    
+}
+
+.paddi {
+    padding-right: 20%;
+    text-align: center;
+}
+.paddi2{
+    padding-left:20% ;
+    text-align: center;
+}
+
+
+.hero-left h1,
+.hero-right h1 {
+    font-size: 40px;
+    font-weight: 500; 
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.hero-left p,
+.hero-right p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+.learn{
+    font-size: 13px;
+    color: #000;
+}
+
+
+
+/*==========================
+Second section
+===========================*/
+
+.section2 {
+    
+    width: 100%;
+    margin-top: 11px;
+    height: 88vh;
+    background-color: rgb(5, 232, 145);
+    display: flex;
+    align-items: center; /*vertical */
+    justify-content: center; /* horizontal */
+}
