@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
+    font-family: 'Supreme', sans-serif;
 }
 
 .container{
@@ -20,14 +20,104 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 115%;
 }
 
 .sigin{
-    background-color: rgb(243, 243, 245);
+    background-color: rgb(255, 255, 255);
     width: 500px;
-    height: 580px;
+    height:600px;
     border-radius: 20px;
     box-shadow: 10px 10px 15px  rgba(0, 0, 0, 0.1),
     -10px -10px 15px rgba(0, 0, 0, 0.1);;/*[horizontal offset] [vertical offset] [blur radius] [spread radius] [color]*/
 }
+
+.sigin .top-section{
+        text-align: center;
+        padding: 50px;      
+
+}
+.sigin .top-section h1 {
+    font-weight: 500;
+    font-size: 25px; 
+}
+.sigin .input-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.sigin input[type="text"],
+.sigin input[type="password"] {
+    background: #e7e7e7;
+    width: 75%; 
+    height: 48px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    opacity: 0.5;
+    
+}
+.sigin .forgot {
+    text-align: end;
+    padding-right: 80px;
+    
+}
+.sigin .forgot h5 {
+    font-weight: 400;
+    color: rgb(26, 95, 244);
+}
+
+.sigin button {
+    background-color: #030303;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 14rem;
+    height: 45px;
+    border-radius: 25px;
+    margin-top: 50px;
+   
+}
+.sigin .other {
+    text-align: center;
+    color: #c6c6c6;
+    padding-top: 50px;
+}
+.sigin .other h5 {
+    font-weight: 200;
+}
+
+.sigin .img {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12rem; 
+    margin-top: 35px;
+}
+.sigin .img  img {
+    width: 28px;
+    height: 28px;
+}
+.sigin .img2 {
+    margin-top: -40px;
+    margin-left: 12rem;
+}
+.sigin .img2  img {
+    width: 50px;
+    height: 50px; 
+}
+.sigin .textsblw h5 {
+    display: flex;
+    padding-left: 275px;
+    font-weight: 300;
+    color: #888888;
+
+}
+.sigin .textsblw2 h5 {
+    display: flex;
+    margin-left: 200px;
+    margin-top: -17px;
+    font-weight: 300;
+    color: #888888;
+}
+
