@@ -5,6 +5,7 @@
 }
 
 body {
+    
     font-family: 'General Sans', sans-serif;
 }
 
@@ -84,3 +85,131 @@ body {
   }
   
 /*-----------------------------------*/
+/*=========onetoipia=========*/
+.container2 {
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140vh;
+    /*border: red solid;*/
+    
+}
+
+.maindiv2 {
+    display: flex;
+    flex-direction: column;
+    background: rgb(0, 0, 0);
+    width: 86%;
+    height: auto;
+    padding: 0px; 
+    align-items: center;
+    margin-top: -5px;
+    /*border: 1px solid rgb(255, 0, 0);*/
+    
+}
+
+.text2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -50px;
+    border-bottom: 1px solid #cccccc61; /*this is to set the bottom border line */
+    padding-bottom: 10px;
+    padding-top: 60px;
+    
+}
+
+.text2 h3 {
+    color: #fff;
+    font-weight: 200;
+}
+
+.text3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px; 
+    
+}
+
+.text3 h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+
+.topiaimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px; 
+}
+
+.topiaimg img {
+    width: 100%;
+    height: auto;
+}
+
+.container3 {
+    background: rgb(0, 0, 0);
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    
+  }
+  
+  .keyboard {
+    width: 56%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+  }
+  
+  .keyboard img {
+    width: 100%;
+    height: 80%;
+  }
+  
+  .insidecontain {
+    background-color: #000000;
+    color: #ffffff;
+    width: 30%; 
+    height: 80%;
+    margin-left: 108px;
+    
+  }
+  
+  .insidecontain h3 {
+    font-weight: 400;
+    font-size: 22px;
+    
+  }
+  .insidecontain h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 5px;
+  }
+  .insidecontain h6 {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 52%;
+    padding-right: 25px;
+  }
+  .container3 .button32 {
+    justify-content: flex-start; /* Align button to the left */
+    margin-top: 430px;
+    margin-left: -82rem;
+    
+}
+.container3 .button32 button {
+    width: 27rem;
+    height: 40px;
+}
