@@ -32,9 +32,10 @@ body {
     justify-content: flex-start;
 }
 .navbar-left img {
-    width: 90px; 
+    width: 110px; 
     height: auto; 
-    margin-left: 20px; 
+    margin-left: 11px; 
+    margin-top: 6px;
     cursor: pointer;
 }
 
