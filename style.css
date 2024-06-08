@@ -71,4 +71,15 @@ body {
     cursor: pointer; 
 }
 
+/* g0dmax55 */
 
+.oneplus-image-1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+
+.first-condainer {
+    height: 640px;
+    
+}
