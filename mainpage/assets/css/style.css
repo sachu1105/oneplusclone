@@ -213,3 +213,50 @@ body {
     width: 27rem;
     height: 40px;
 }
+
+
+
+/*====================================
+ Create New Store Page
+ =====================================*/
+
+ .headernav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.navcontainer {
+  display: flex;
+  align-items: center;
+  width: 88%;
+  margin-top: 2rem;
+  
+}
+
+p {
+  margin-right: auto;
+  font-size: 50px;
+  font-weight:500;
+}
+
+.navitem {
+  display: inline-block;
+  margin-right: 20px;
+  margin: 0 20px;
+}
+
+.navitem img {
+  width: 80px; 
+  height: auto; 
+}
+
+.navitem p {
+  text-align: center;
+  font-size: 14px;
+}
+.red {
+  color: hsl(0, 100%, 50%);
+  font-size: 8px;
+}
